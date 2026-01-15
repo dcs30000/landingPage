@@ -368,3 +368,15 @@ ul {
 
 /*UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUuu*/
 
+/* =========================
+   HOVER - BUTTONS
+========================= */
+.btn,
+.btn-primary {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn:hover,
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
